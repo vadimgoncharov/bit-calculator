@@ -1,0 +1,25 @@
+{
+  "name": "bit-calculator",
+  "version": "1.0.0",
+  "description": "Bit Calculator returns sum of bit representation of numbers in decimal",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/tape/bin/tape ./test/tests.js | ./node_modules/.bin/tap-diff",
+    "coverage": "./node_modules/istanbul/lib/cli.js cover ./test/tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vadimgoncharov/bit-calculator.git"
+  },
+  "author": "Vadim Goncharov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vadimgoncharov/bit-calculator/issues"
+  },
+  "homepage": "https://github.com/vadimgoncharov/bit-calculator#readme",
+  "devDependencies": {
+    "istanbul": "^0.4.3",
+    "tap-diff": "^0.1.1",
+    "tape": "^4.5.1"
+  }
+}
