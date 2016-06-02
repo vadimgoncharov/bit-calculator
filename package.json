@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/tape/bin/tape ./test/tests.js | ./node_modules/.bin/tap-diff",
-    "coverage": "./node_modules/istanbul/lib/cli.js cover ./test/tests.js"
+    "coverage": "./node_modules/istanbul/lib/cli.js cover ./test/tests.js",
+    "coverage-coveralls": "./node_modules/nyc/bin/nyc.js --reporter=lcov --reporter=text-lcov npm test | ./node_modules/coveralls/bin/coveralls.js"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,9 @@
   },
   "homepage": "https://github.com/vadimgoncharov/bit-calculator#readme",
   "devDependencies": {
+    "coveralls": "^2.11.9",
     "istanbul": "^0.4.3",
+    "nyc": "^6.4.4",
     "tap-diff": "^0.1.1",
     "tape": "^4.5.1"
   }
