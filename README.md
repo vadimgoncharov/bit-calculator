@@ -1,5 +1,6 @@
 # Bit Calculator
 
+![Node Version 6.x.x](https://img.shields.io/badge/node-6.x.x-brightgreen.svg)
 [![Build Status](https://img.shields.io/travis/vadimgoncharov/bit-calculator/master.svg)](https://travis-ci.org/vadimgoncharov/bit-calculator)
 [![Coverage Status](https://img.shields.io/coveralls/vadimgoncharov/bit-calculator/master.svg)](https://coveralls.io/r/vadimgoncharov/bit-calculator)
 
